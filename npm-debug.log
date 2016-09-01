@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'link',
+1 verbose cli   'browser-sync',
+1 verbose cli   'jeet' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose link symlinking /usr/local/lib/node_modules/browser-sync to /home/user/Рабочий стол/8800/node_modules/browser-sync
+5 verbose link symlinking /usr/local/lib/node_modules/jeet to /home/user/Рабочий стол/8800/node_modules/jeet
+6 silly gentlyRm /home/user/Рабочий стол/8800/node_modules/browser-sync is being purged
+7 verbose gentlyRm don't care about contents; nuking /home/user/Рабочий стол/8800/node_modules/browser-sync
+8 silly gentlyRm /home/user/Рабочий стол/8800/node_modules/jeet is being purged
+9 verbose gentlyRm don't care about contents; nuking /home/user/Рабочий стол/8800/node_modules/jeet
+10 info build /home/user/Рабочий стол/8800/node_modules/browser-sync
+11 info build /home/user/Рабочий стол/8800/node_modules/jeet
+12 info linkStuff jeet@6.1.4
+13 silly linkStuff jeet@6.1.4 has /home/user/Рабочий стол/8800/node_modules as its parent node_modules
+14 info linkStuff browser-sync@2.14.0
+15 silly linkStuff browser-sync@2.14.0 has /home/user/Рабочий стол/8800/node_modules as its parent node_modules
+16 verbose linkBins jeet@6.1.4
+17 verbose linkMans jeet@6.1.4
+18 verbose linkBins browser-sync@2.14.0
+19 verbose link bins [ { 'browser-sync': 'bin/browser-sync.js' },
+19 verbose link bins   '/home/user/Рабочий стол/8800/node_modules/.bin',
+19 verbose link bins   false ]
+20 verbose linkMans browser-sync@2.14.0
+21 silly gentlyRm /home/user/Рабочий стол/8800/node_modules/.bin/browser-sync is being purged
+22 verbose gentlyRm don't care about contents; nuking /home/user/Рабочий стол/8800/node_modules/.bin/browser-sync
+23 verbose stack Error: EPERM: operation not permitted, chmod '/home/user/Рабочий стол/8800/node_modules/browser-sync/bin/browser-sync.js'
+23 verbose stack     at Error (native)
+24 verbose cwd /home/user/Рабочий стол/8800
+25 error Linux 4.4.0-36-generic
+26 error argv "/usr/bin/nodejs" "/usr/bin/npm" "link" "browser-sync" "jeet"
+27 error node v4.2.6
+28 error npm  v3.5.2
+29 error path /home/user/Рабочий стол/8800/node_modules/browser-sync/bin/browser-sync.js
+30 error code EPERM
+31 error errno -1
+32 error syscall chmod
+33 error Error: EPERM: operation not permitted, chmod '/home/user/Рабочий стол/8800/node_modules/browser-sync/bin/browser-sync.js'
+33 error     at Error (native)
+33 error  { [Error: EPERM: operation not permitted, chmod '/home/user/Рабочий стол/8800/node_modules/browser-sync/bin/browser-sync.js']
+33 error   errno: -1,
+33 error   code: 'EPERM',
+33 error   syscall: 'chmod',
+33 error   path: '/home/user/Рабочий стол/8800/node_modules/browser-sync/bin/browser-sync.js' }
+34 error Please try running this command again as root/Administrator.
+35 verbose exit [ -1, true ]
